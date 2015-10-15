@@ -1,0 +1,25 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: The computer can quickly compare the two files and immediately list all the differences. This is much more efficient and less error prone than
+a human reader can do. The differences between the two files are listed next to each other so you can quickly skim the results and see the text that has changed between the two versions. 
+
+q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: You could compare early versions to later versions to see how the code evolved. You could try out different things and be able to revert without fear of losing an important feature. Not being afraid to try new things will surely result in finding more efficient ways of expressing an algorithm. 
+
+q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Pros are you have fine grained control on deciding what represents a logical commit point. The system won’t automatically commit during in-progress work which might not even compile or run correctly. The cons are you might go too long between commits since it’s not automatic, and you could lose work if you have a local system failure. 
+
+q Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Some VCS systems are designed around single files being the basic unit of work, whereas other systems like git have a concept of multiple files as “one” work unit. 
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+
+git log, executed in a git project directory, prints a history of all the commits for that repository. git diff lets you compare two different commit points to see all the changes between two commits. 
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+Because you have a history you can search to find the last version that worked correctly before you introduced a bug.
