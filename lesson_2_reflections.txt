@@ -7,4 +7,22 @@ You need to do it in order to use the rest of the git commands in your repositor
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area is a interim area that allows you to add files into before you commit them. This offers an extra level of indirections, i.e., a “hook” that can be utilized to give more flexibility to the file’s lifecycle. 
+A:The staging area is a interim area that allows you to add files into before you commit them. This offers an extra level of indirections, i.e., a “hook” that can be utilized to give more flexibility to the file’s lifecycle. 
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the changes you have made to files in the Working directory with the staging area, and see what has changed so far. Then you can add which files you want to include in a commit, and do a git commit to commit all those related changes together. 
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When you want to try some experimental feature but want to still keep the main branch unmodified. You could create new code in the branch, and
+   still have the previous branch (master) available for use, demo, production, etc. Later if you were satisfied with the new feature you could
+   push that back into the master branch, or leave it in a separate branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: By seeing the parent of each commit, and how the branches are related, and which commits exist on which branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: All the changes in both branches are combined into one branch, with the label of the current checked-out branch. 
