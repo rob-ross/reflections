@@ -26,3 +26,11 @@ A: By seeing the parent of each commit, and how the branches are related, and wh
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A: All the changes in both branches are combined into one branch, with the label of the current checked-out branch. 
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros  - it can automate merging changes that are non-conflicting. Cons are, manually merging every time is bound to introduce errors that
+   a computer will not make. With git’s merging, you only have to manually merge changes where the result is ambiguous and requires human
+   intervention.
+
+
