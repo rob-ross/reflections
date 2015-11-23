@@ -1,0 +1,4 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: When you want to share your code with others, and/or provide an external source that will serve as a backup in case something 
+   happens to your local hardware/software. 
